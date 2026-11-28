@@ -55,7 +55,7 @@ const getUser = async (req : Request, res : Response) => {
     sendResponse(res, {
         status : 200,
         success : true,
-        message : "User Retrived",
+        message : "User retrieved Successfully",
         data : result.rows
     })
     } catch (error : any) {
