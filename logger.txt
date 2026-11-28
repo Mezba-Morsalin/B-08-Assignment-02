@@ -1,2 +1,28 @@
 
 Method : GET | url : / | Time : 1795859274343
+
+Method : GET | url : /api/v1/auth/signup | Time : 1795869435147
+
+Method : POST | url : /api/v1/auth/signup | Time : 1795869470465
+
+Method : POST | url : /api/v1/auth/signup | Time : 1795869805590
+
+Method : POST | url : /api/v1/auth/signup | Time : 1795869818562
+
+Method : GET | url : /api/v1/auth/signup | Time : 1795870108810
+
+Method : GET | url : /api/v1/auth/users | Time : 1795870227319
+
+Method : POST | url : /api/v1/auth/signup | Time : 1795870249973
+
+Method : POST | url : /api/v1/auth/signup | Time : 1795870278118
+
+Method : GET | url : / | Time : 1795870293387
+
+Method : GET | url : /api/v1/users | Time : 1795870296222
+
+Method : GET | url : /api/v1/auth/users | Time : 1795870302589
+
+Method : GET | url : /favicon.ico | Time : 1795870302997
+
+Method : POST | url : /api/v1/auth/login | Time : 1795872445865

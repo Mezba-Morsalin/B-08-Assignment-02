@@ -1,5 +1,6 @@
 import express, { type Application, type Request, type Response } from "express"
 import logger from "./middleware/logger";
+import { authRoute } from "./modules/auth/auth.route";
 const app : Application = express()
 
 app.use(express.json())
@@ -14,4 +15,5 @@ app.get("/", (req : Request, res : Response) => {
     })
 });
 
+app.use("/api/v1/auth", authRoute)
 export default app

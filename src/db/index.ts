@@ -2,7 +2,7 @@ import { Pool } from "pg";
 import config from "../config";
 
 export const pool = new Pool({
-    connectionString : config.connection_string
+    connectionString: config.connection_string
 })
 
 export const initDB = async () => {
@@ -19,8 +19,9 @@ await pool.query(`
         created_at TIMESTAMP DEFAULT NOW(),
         updated_at TIMESTAMP DEFAULT NOW()
         )
-    `)
+    `);
         console.log("Neon DB Connected Successfully");
+    
     } catch (error) {
         throw error
     }
